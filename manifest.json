@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "version": "0.1.0",
-  "name": "Aggressive Coin Miner Blocker",
-  "description": "extension description",
+  "name": "Coin Mining Blocker",
+  "description": "Block JavaScript coin mining scripts at network level",
 
   "icons": {
     "16": "data/icons/16.png",
@@ -18,10 +18,12 @@
     "webRequestBlocking",
     "storage",
     "tabs",
+    "alarms",
+    "webNavigation",
     "*://*/*"
   ],
 
-  "homepage_url": "http://add0n.com/index.html",
+  "homepage_url": "http://add0n.com/mining-blocker.html",
 
   "browser_action": {
     "default_icon": {
